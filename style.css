@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+#g{
+    border: 4px black solid;
+    width: 550px;
+    height: 520px;
+    position: absolute;
+    
+    top:10%;
+    left: 30%; 
+    background-color:black ;
+    border-radius: 12px;
+    box-shadow: 4px 1px 4px 10px red ;
+    outline: 0px;
+    animation: b 3s infinite ;
+}
+ 
+@keyframes b {
+    0%{
+        box-shadow:  4px 1px 4px 10px red;
+    }
+    10%{
+        box-shadow:4px 1px 4px 10px  blue;
+        
+    }
+    20%{
+        box-shadow:4px 1px 4px 10px  deeppink;
+
+
+    }
+    40%{
+        box-shadow:4px 1px 4px 10px  yellow;
+
+    }
+    60%{
+        box-shadow:4px 1px 4px 10px  rgb(0, 234, 255);
+
+    }
+    80%{
+        box-shadow:4px 1px 4px 10px  orange;
+
+    }
+    100%{
+        box-shadow:4px 1px 4px 10px  blue;
+
+    }
+}
+#h{
+    color: white;
+    
+    position: absolute;
+    top: 5%;
+    left:67%;
+    
+    
+}
+#k{
+    position: absolute;
+    top:20% ;
+    left: 25%;
+    width: 252px;
+    height: 42px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 4px red solid;
+    border-radius: 45px; 
+}
+#l{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 250px;
+    height: 42px;
+    background-color: black;
+    border: 4px deeppink solid;
+    border-radius: 45px;
+    text-align: center;
+    color: white;
+}
+#m{
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    width: 252px;
+    height: 42px;
+    background-color: #000000;
+    border: 4px green solid;
+    border-radius: 45px;
+    color: white;
+    text-align: center;
+
+
+}
+#btn{
+    position: absolute;
+    top: 62%;
+    left: 28%;
+    width: 220px;
+    height: 45px;
+    border-radius: 32px;
+    background-color: mediumspringgreen;
+    color: red;
+}
